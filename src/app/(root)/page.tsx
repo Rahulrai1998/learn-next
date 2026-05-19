@@ -1,4 +1,4 @@
-import Hello from "../components/Hello";
+import Hello from "../../components/Hello";
 
 export default function Home() {
   console.log("This consoled on server"); //won't execute on the client

@@ -12,20 +12,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="flex flex-col justify-between h-full">
-        <header style={{ backgroundColor: "lightblue", padding: "1rem" }}>
-          <p>Header</p>
-        </header>
+      <body>
         <div>{children}</div>
-        <footer
-          className="block"
-          style={{
-            backgroundColor: "ghostwhite",
-            padding: "1rem",
-          }}
-        >
-          <p>Footer</p>
-        </footer>
       </body>
     </html>
   );
