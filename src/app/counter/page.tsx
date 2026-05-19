@@ -1,5 +1,4 @@
-import Counter from "./counter";
-
+import Counter from "./Counter"
 export const metadata = {
     title: "Counter"
 }
