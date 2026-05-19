@@ -1,3 +1,4 @@
 export default function Profile() {
-    return <h1>Profile</h1>
+  throw new Error("Error on purspose");
+  return <h1>Profile</h1>;
 }
